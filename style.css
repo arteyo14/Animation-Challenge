@@ -1,0 +1,21 @@
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader {
+    position: absolute;
+    left: 650px;
+    top: 300px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 20px solid rgb(100, 239, 177);
+    border-top: 20px solid blue;
+    animation: loading 2s linear infinite;
+}
